@@ -189,6 +189,7 @@ body {
 
 .contact-p .right-side {
     padding: 10rem 1rem;
+    border-left: white solid 3px;
 }
 
 .contact-p .right-side .contact-icons  {
