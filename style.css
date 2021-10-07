@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .navbar ul li {
     display: inline-block;
     line-height: 50px;
@@ -110,6 +111,7 @@ body {
     transition: ease-in 0.2s;
 }
 
+
 @media screen and (max-width: 470px) {
     .navigation .container{
         display: flex;
@@ -129,6 +131,10 @@ body {
     iframe {
         width: 300px;
         height: 180px;
+    }
+
+    .enav {
+        display: none;
     }
 
 }
