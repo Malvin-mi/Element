@@ -134,6 +134,10 @@ body {
         height: 180px;
     }
 
+    .pnav button {
+        margin-left: 60px;
+    }
+
     .enav {
         display: none;
     }
