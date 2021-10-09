@@ -7,26 +7,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.navbar ul li {
-    display: inline-block;
-    line-height: 50px;
+nav .container-fluid .collapse ul li a:hover {
+ background-color: aqua;
+ border-radius: 8px;
+ transition: ease-in 0.2s;
 }
-
-.navbar ul li a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  padding: 0 2rem;
-}
-
-
-.navbar ul li a:hover {
-    background-color: aqua;
-    transition: ease-in 0.5s;
-    border-radius: 10px;
-}
-
 .welcome-section {
     background-image: url('./Images/Background.jpg');
     background-size: cover;
@@ -114,32 +99,10 @@ body {
 
 
 @media screen and (max-width: 470px) {
-    .navigation .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navigation ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-right: 3rem;
-    }
 
     iframe {
         width: 300px;
         height: 180px;
-    }
-
-    .pnav button {
-        margin-left: 75px;
-    }
-
-    .enav {
-        display: none;
     }
 
 }
