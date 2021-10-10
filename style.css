@@ -18,16 +18,6 @@ nav .container-fluid .collapse ul li a:hover {
     background-repeat: no-repeat;
     background-position: 50% 0;
 }
-
-.welcome-section .welcome-text {
-    padding-top: 10rem;
-}
-
-.featured-section  .featured {
-    text-align: center;
-    /* background-color: aqua; */
-    border-radius: 5px;
-}
 .feat-pic img {
     height: 200px;
     width: 100%;
@@ -39,24 +29,10 @@ nav .container-fluid .collapse ul li a:hover {
     transition: ease-in 40ms;
 }
 
-.feat a {
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 0 2rem;
-}
-
 .feat a:hover {
     background-color: aqua;
     transition: ease-in 0.5s;
     border-radius: 10px;
-}
-
-.ret a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 0 2rem;
 }
 
 .ret a:hover {
@@ -72,32 +48,6 @@ nav .container-fluid .collapse ul li a:hover {
     background-position: 50% 0;
 
 }
-.form-section .form-text {
-    border-radius: 8px;
-    height: 40px;
-    border: 1px solid black;
-}
-
-.form-section .form-btn {
-    background-color: aqua;
-    padding: .5rem 2rem;
-    margin: 0 2rem;
-}
-
-.form-section svg {
-    margin: 0 1rem;
-}
-
-.form-section a {
-    color: white;
-}
-
-.form-section a:hover {
-    color: aqua;
-    transition: ease-in 0.2s;
-}
-
-
 @media screen and (max-width: 470px) {
 
     iframe {
@@ -108,11 +58,6 @@ nav .container-fluid .collapse ul li a:hover {
 }
 
 /* About page */
-
-.about-sec {
-    display: flex;
-    flex-direction: column;
-}
 .about-sec .about-bg {
     background-image: url('./Images/blue\ ps4.jpg');
     background-size: cover;
@@ -120,12 +65,6 @@ nav .container-fluid .collapse ul li a:hover {
     background-position: 50% 50%;
     height: 50vh;
 }
-
-.about-sec .about-text {
- background-color: rebeccapurple;
- 
-}
-
 .about-sec .about-text h1 {
     font-family: 'Lato', sans-serif;
 }
@@ -133,60 +72,14 @@ nav .container-fluid .collapse ul li a:hover {
 .about-sec .about-text h5 {
     font-family: 'Kurale', serif;
 }
-
-.about-sec .about-text a {
-    color: white;
-}
-
-.about-sec .about-text a:hover {
-    color: salmon;
-}
-
 /* Contact page */
 .contact-p {
     font-family: 'Kurale', serif;
     height: 100%;
 }
-
-.contact-p .left-side .btn-contain .cont-btn {
-    padding: .5rem 1rem;
-    border:1px solid black;
-    border-radius: 5px;
-}
-
-.contact-p .left-side .btn-contain .cont-btn:hover {
-    background-color: aqua;
-}
-.contact-p .left-side {
-  padding: 2rem 0;
-}
-
 .contact-p .right-side {
     padding: 10rem 1rem;
-    border-left: white solid 3px;
 }
-
-.contact-p .right-side .contact-icons  {
-  padding-top: 3rem;
-}
-
-.contact-p .right-side .contact-icons a {
-    color: white;
-    margin: 0 1rem;
-}
-.contact-p .right-side .contact-icons a:hover {
-    color: aqua;
-    transition: ease-in 0.2s;
-}
-
-.contact-p .right-side .back a {
-    color: white;
-}
-
-.contact-p .right-side .back a:hover  {
-     color: salmon;
-}
-
 /* services page  */
 
 .services-body {
@@ -203,11 +96,6 @@ nav .container-fluid .collapse ul li a:hover {
 .service-section .serve-left {
     padding-top: 10rem;
 }
-
-.service-section .serve-left a{
-    color: white;
-}
-
 .service-section .serve-right {
     margin-top: 15%;
     border-radius: 8px;
