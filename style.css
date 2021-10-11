@@ -6,12 +6,6 @@
 body {
     font-family: 'Kurale', serif;
 }
-
-nav .container-fluid .collapse ul li a:hover {
- background-color: aqua;
- border-radius: 8px;
- transition: ease-in 0.2s;
-}
 .welcome-section {
     background-image: url('./Images/Background.jpg');
     background-size: cover;
@@ -22,25 +16,6 @@ nav .container-fluid .collapse ul li a:hover {
     height: 200px;
     width: 100%;
 }
-
-.feat-pic img:hover {
-    transform: scale(0.9);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: ease-in 40ms;
-}
-
-.feat a:hover {
-    background-color: aqua;
-    transition: ease-in 0.5s;
-    border-radius: 10px;
-}
-
-.ret a:hover {
-    background-color:rgba(253, 31, 235, 0.5);
-    transition: ease-in 0.2s;
-    border-radius: 10px;
-}
-
 .form-section .form-pic {
     background-image: url('./Images/concept\ fun.jpg');
     background-size: cover;
@@ -49,12 +24,10 @@ nav .container-fluid .collapse ul li a:hover {
 
 }
 @media screen and (max-width: 470px) {
-
     iframe {
         width: 300px;
         height: 180px;
     }
-
 }
 
 /* About page */
@@ -68,26 +41,17 @@ nav .container-fluid .collapse ul li a:hover {
 .about-sec .about-text h1 {
     font-family: 'Lato', sans-serif;
 }
-
-.about-sec .about-text h5 {
-    font-family: 'Kurale', serif;
-}
 /* Contact page */
 .contact-p {
-    font-family: 'Kurale', serif;
     height: 100%;
 }
 .contact-p .right-side {
     padding: 10rem 1rem;
 }
 /* services page  */
-
 .services-body {
     height: 100%;
     background: linear-gradient(90deg, #272927 50%, #d2d6d3 50%);
-}
-.service-section{
-    font-family: 'Kurale', serif;
 }
 .service-section .serve-left h1 {
     font-family: 'Lato', sans-serif;
