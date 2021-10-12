@@ -49,21 +49,24 @@
                     <p>Do you have any message for us, please don't hesitate to reach out. 
                         Take control today.</p>
                     <form action="">
-                        <div>
-                            <p>Name</p>
-                            <input type="text" name="name" id="" placeholder="Code Lord Malvin">
-                        </div>
-                        <div>
-                            <p>Email</p>
-                            <input type="email" name="email" id="" placeholder="codelord@gmail.com">
-                        </div>
-                        <div>
-                            <p>Message</p>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="message here ...."></textarea>
-                        </div>
-                        <div class="btn-contain">
-                           <button type="submit" class="py-1 px-2 border border-dark bg-info rounded">SUBMIT</button>
-                        </div>   
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Michael Ogunyemi">
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="youremail@gmail.com">
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput2">Your message</label>
+                        <textarea class="form-control text-black" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        
+                      </div>
+
+                      <div class="col-auto py-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
                     </form>
 
                 </div>
